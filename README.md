@@ -8,8 +8,10 @@ The audio response from the computer could not be recorded but hope you get the 
 |      User Input         |
 | (Voice command via USB) |
 +-----------+-------------+
+
             |
             v
+            
 +-----------+-------------+
 |    Raspberry Pi         |
 | (Processes input via    |
