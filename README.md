@@ -64,5 +64,59 @@ This section provides a flowchart representation of the voice-enabled payment sy
 |          End             |
 +--------------------------+
 
+'''
+
+
+The flowchart below is a flowchart of UPI payment using Raspberry Pi hardware(Source:https://ieeexplore.ieee.org/abstract/document/9317214)
+
+## Flowchart
+
+'''plaintext
++-------------------------+
+|      User Input         |
+| (Voice command via USB) |
++-----------+-------------+
+            |
+            v
++-----------+-------------+
+|    Raspberry Pi         |
+| (Processes input via    |
+|  Node.js script)        |
++-----------+-------------+
+            |
+            v
++-----------+-------------+
+|    Amazon Lex           |
+| (Speech-to-Text and NLU)|
++-----------+-------------+
+            |
+            v
++-----------+-------------+
+|    AWS Lambda           |
+| (Validates input and    |
+|  interacts with Eyowo)  |
++-----------+-------------+
+            |
+            v
++-----------+-------------+
+|    Eyowo API            |
+| (Processes transaction) |
++-----------+-------------+
+            |
+            v
++-----------+-------------+
+|    Raspberry Pi         |
+| (Speech synthesis via   |
+|  Amazon Lex)            |
++-----------+-------------+
+            |
+            v
++-----------+-------------+
+|    User Output          |
+| (Voice response via     |
+|  speaker)               |
++-------------------------+
+
+
 
 
