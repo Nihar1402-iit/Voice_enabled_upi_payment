@@ -8,7 +8,6 @@ The audio response from the computer could not be recorded but hope you get the 
 |  Start                   |
 +--------------------------+
             |
-            
             v
             
 +--------------------------+
@@ -16,7 +15,6 @@ The audio response from the computer could not be recorded but hope you get the 
 |
 +--------------------------+
             |
-            
             v
             
 +--------------------------+
